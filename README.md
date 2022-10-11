@@ -26,3 +26,7 @@ The UI can be modified by changing the values below
 - Xcode 14.0.0
 - Deployment Target : macOS 12.3
 - Swift 5.7
+
+## Dedicate to
+Renee Cha, with love
+
