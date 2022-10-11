@@ -28,5 +28,5 @@ The UI can be modified by changing the values below
 - Swift 5.7
 
 ## Dedicate to
-[Renee Cha](renee-cha.com), with love
+[Renee Cha](https://renee-cha.com/), with love
 
