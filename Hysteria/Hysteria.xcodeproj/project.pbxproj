@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		6380D4CE28F5AFB000812B18 /* HysteriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380D4CD28F5AFB000812B18 /* HysteriaApp.swift */; };
-		6380D4D028F5AFB000812B18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380D4CF28F5AFB000812B18 /* ContentView.swift */; };
 		6380D4D228F5AFB300812B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6380D4D128F5AFB300812B18 /* Assets.xcassets */; };
 		6380D4D528F5AFB300812B18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6380D4D428F5AFB300812B18 /* Preview Assets.xcassets */; };
+		6380D4DF28F5AFF900812B18 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380D4DC28F5AFF900812B18 /* Datasource.swift */; };
+		6380D4E028F5AFF900812B18 /* HalfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380D4DD28F5AFF900812B18 /* HalfView.swift */; };
+		6380D4E128F5AFF900812B18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380D4DE28F5AFF900812B18 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6380D4CA28F5AFB000812B18 /* Hysteria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hysteria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6380D4CD28F5AFB000812B18 /* HysteriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HysteriaApp.swift; sourceTree = "<group>"; };
-		6380D4CF28F5AFB000812B18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6380D4D128F5AFB300812B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6380D4D428F5AFB300812B18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6380D4D628F5AFB300812B18 /* Hysteria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hysteria.entitlements; sourceTree = "<group>"; };
+		6380D4DC28F5AFF900812B18 /* Datasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		6380D4DD28F5AFF900812B18 /* HalfView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfView.swift; sourceTree = "<group>"; };
+		6380D4DE28F5AFF900812B18 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				6380D4CD28F5AFB000812B18 /* HysteriaApp.swift */,
-				6380D4CF28F5AFB000812B18 /* ContentView.swift */,
+				6380D4DE28F5AFF900812B18 /* ContentView.swift */,
+				6380D4DC28F5AFF900812B18 /* Datasource.swift */,
+				6380D4DD28F5AFF900812B18 /* HalfView.swift */,
 				6380D4D128F5AFB300812B18 /* Assets.xcassets */,
 				6380D4D628F5AFB300812B18 /* Hysteria.entitlements */,
 				6380D4D328F5AFB300812B18 /* Preview Content */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6380D4D028F5AFB000812B18 /* ContentView.swift in Sources */,
+				6380D4DF28F5AFF900812B18 /* Datasource.swift in Sources */,
 				6380D4CE28F5AFB000812B18 /* HysteriaApp.swift in Sources */,
+				6380D4E128F5AFF900812B18 /* ContentView.swift in Sources */,
+				6380D4E028F5AFF900812B18 /* HalfView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
