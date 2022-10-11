@@ -1,5 +1,5 @@
 # Hysteria
-Express poetry '시골 창녀 (김이듬)' in random language (🇰🇷, 🇺🇸, 🇨🇳) for each phrase every second
+Express a poem '[시골 창녀 (김이듬)](https://poemlucky.tistory.com/423)' in random language (🇰🇷, 🇺🇸, 🇨🇳) for each phrase every second
 
 ## Preview
 ![화면 기록 2022-10-11 오후 11 11 20](https://user-images.githubusercontent.com/20410193/195115407-3345cf9f-e52a-4af7-aa1f-67403da2ae0f.gif)
